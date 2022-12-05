@@ -1,0 +1,146 @@
+body{
+    margin: 0%;
+    padding: 2%;
+}
+/*Centrado de Imagen*/
+.Center{
+ 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+}
+.Center img{
+    /*configuracion de imagen*/
+    
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    
+}
+
+
+ 
+/*Configuraion de titulo dentro de rectangulo*/
+.Rectangulo h1{
+      
+    
+    height: 60px;
+ 
+    
+    background: #C4C4C4;
+/*Centrado del texto en el retanguo*/
+display: flex; 
+justify-content: center;
+align-items: center;
+
+/*Tipo de fuente y tamaño de la misma*/
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+color: #005677;
+align-content: center;
+line-height: 84.69%;
+
+letter-spacing: 5px;
+
+}
+ h2{
+    height: 30px;
+    background: #C4C4C4;
+
+    
+display: flex; 
+align-items: center;
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+/* identical to box height, or 17px */
+
+font-feature-settings: 'cpsp' on;
+
+color: #005677;
+letter-spacing: 4px;
+text-indent: 20px;
+
+}
+ul{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+line-height: 1.5rem;
+    
+    /* identical to box height, or 13px */
+    color: #000000;
+
+    
+
+}
+.academico{
+    width: 100%;
+    height: auto;
+    
+    
+
+}
+.academico .p-1{
+    
+    font-weight: bold;
+    width: 262px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    display: inline;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
+    margin-left: 2%;
+}
+.academico .Prof{
+ 
+    
+    font-weight:lighter;
+    width: 262px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    display: inline;
+    margin-bottom: 0%;
+    margin-top: 0;
+    letter-spacing: 0;
+    
+}
+.Info{
+    font-weight:lighter;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: 0%;
+    text-indent: 100px;
+    letter-spacing: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+footer{
+margin-top: 20px;
+background-color: #005677;
+color: white;
+display: flex; 
+justify-content: center;
+align-items: center;
+font-family: 'Times New Roman';
+width: auto;
+height:30px;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+padding: 2px;
+
+}
+.footer a{
+    width: 20px;
+    margin-left: 10px;
+}
