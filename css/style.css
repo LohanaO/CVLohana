@@ -24,16 +24,12 @@ body{
  
 /*Configuraion de titulo dentro de rectangulo*/
 .Rectangulo h1{
-      
-    
-    height: 60px;
- 
-    
-    background: #C4C4C4;
+ background: #C4C4C4;
 /*Centrado del texto en el retanguo*/
 display: flex; 
 justify-content: center;
 align-items: center;
+padding: 20px;
 
 /*Tipo de fuente y tamaño de la misma*/
 
@@ -143,4 +139,11 @@ padding: 2px;
 .footer a{
     width: 20px;
     margin-left: 10px;
+}
+
+@media (max-width :472px ) {
+    .Rectangulo h1{
+        padding: 30px;
+        text-align: center;
+    }
 }
